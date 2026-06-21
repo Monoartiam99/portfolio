@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite MX Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  width: 100%;
+  background-color: #ffffff;
+  background-size: 40px 40px;
+  background-image: 
+  linear-gradient(to right, #e0e0e0 0.1px, transparent 1px),
+  linear-gradient(to left, #e0e0e0 0.1px, transparent 1px),
+  linear-gradient(to top, #e0e0e0 0.1px, transparent 1px),
+  linear-gradient(to bottom, #e0e0e0 0.1px, transparent 1px);
+}
+.navbar{
+ color: #040806;
+ top: 10px;
+ width: 95%;
+ left: 30px;
+ display: flex;
+ position: absolute;
+ background-color: rgba(1, 10, 100, 0.4);
+ justify-content: space-around;
+ align-items: center;
+ padding: 20px 50px;
+ box-sizing: border-box;
+ border-radius: 20px;
+} 
+.navbar-logo{
+  color: brown;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-links{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  font-weight: bold;
+  
+} 
+.c1 {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  height: auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.c2 {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  height: auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.c3 {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  height: auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.c4 {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  height: auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.navbar-links a{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.navbar-links a:hover{
+  color: blueviolet;
+}
