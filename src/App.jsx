@@ -13,6 +13,7 @@ const App = () => {
         </ul>
       </nav>
 
+
       <section className="hero">
         <div className="aboutme">
           <div className="about">

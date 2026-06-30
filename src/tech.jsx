@@ -21,6 +21,7 @@ const techData = [
   { id: 6, name: 'MongoDB', icon: <SiMongodb className="text-green-600" /> },
 ];
 
+
 export default function TechStack() {
   return (
     <div style={styles.container}>
